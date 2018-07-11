@@ -1,6 +1,7 @@
-n=int(input())
-count=0
-while(n>0):
-    count=count+1
-    n=n//10
-print(count)
+Number = int(input())
+Count = 0
+while(Number > 0):
+    Number = Number // 10
+    Count = Count + 1
+ 
+print(Count)
